@@ -89,3 +89,17 @@ print(a)
 #원하는 만큼 뒤에 값 추가
 a.extend([6,7,8])
 print(a)
+
+b = a
+
+#카운트
+print(len(b))
+
+#뒤집기
+b.reverse()
+print(b)
+
+#정렬
+b.sort()
+print(b)
+
